@@ -276,3 +276,41 @@ header nav a:hover {
 .header-img {
     padding: 10px;
 }
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	border-top: 1px dotted black;
+	margin: 20px 0;
+    padding: 20px 0;
+    width: 800px;
+}
+
+.service {
+	width: 45%;
+	padding: 20px;
+	margin: 15px 0;
+    border-bottom: 1px dotted black;
+}
+
+.middlecontent .boxes {
+    margin: 0 auto;
+}
+
+.facts {
+    padding: 20px;
+}
+
+.content .service button {
+	border: 1px solid black;
+	border-radius: 10px;
+	padding: 5px 25px;
+	margin-top: 10px;
+}
